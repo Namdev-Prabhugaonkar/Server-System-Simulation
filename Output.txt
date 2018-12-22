@@ -1,0 +1,30 @@
+Enter simulation time: 100
+Enter number of servers: 3
+At clock 2 server 0 start for Customer 11 whose arrival time= 2 Transaction time= 5 and service time= 2. The wait time for this customer is 0
+At clock 3 server 1 start for Customer 22 whose arrival time= 3 Transaction time= 7 and service time= 3. The wait time for this customer is 0
+At clock 3 server 2 start for Customer 33 whose arrival time= 3 Transaction time= 10 and service time= 3. The wait time for this customer is 0
+At clock 7 server 0 finish 11
+At clock 7 server 0 start for Customer 44 whose arrival time= 6 Transaction time= 2 and service time= 7. The wait time for this customer is 1
+At clock 9 server 0 finish 44
+At clock 9 server 0 start for Customer 55 whose arrival time= 7 Transaction time= 3 and service time= 9. The wait time for this customer is 2
+At clock 10 server 1 finish 22
+At clock 10 server 1 start for Customer 66 whose arrival time= 9 Transaction time= 12 and service time= 10. The wait time for this customer is 1
+At clock 12 server 0 finish 55
+At clock 13 server 2 finish 33
+At clock 22 server 1 finish 66
+Results: 
+Customer count= 6
+Average wait time= 0.666667
+Maximum wait time= 2
+Number of servers used during simulation= 2
+server [0]s Working time= 10
+Idle time of the server[0] during simulation= 90
+server [0]s Efficiency= 10%
+server [1]s Working time= 19
+Idle time of the server[1] during simulation= 81
+server [1]s Efficiency= 19%
+****************End Of Simulation****************
+
+
+RUN FINISHED; exit value 0; real time: 3s; user: 0ms; system: 0ms
+
